@@ -21,15 +21,15 @@ export function InteractiveExperiences() {
       <Container className="grid items-center gap-10 lg:grid-cols-2 lg:gap-14">
         <Reveal>
           <p className="mb-3 text-xs font-medium tracking-[0.22em] text-accent uppercase">
-            3D web development
+            3D / Interactive
           </p>
           <h2 className="text-3xl font-semibold tracking-tight text-balance sm:text-4xl">
-            Interactive Web Experiences
+            Websites That Go Beyond Static Pages.
           </h2>
           <p className="mt-5 max-w-xl text-base leading-7 text-muted">
-            I can build websites that go beyond static pages — combining modern
-            UI, motion, interaction, and 3D elements to create memorable digital
-            experiences.
+            I can build websites that go beyond static pages, combining modern
+            UI, motion, interaction, and carefully designed 3D elements to
+            create memorable digital experiences.
           </p>
         </Reveal>
         <Reveal delay={0.08}>

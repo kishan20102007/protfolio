@@ -7,6 +7,7 @@ import { FreelanceCTA } from "@/components/FreelanceCTA";
 import { Hero } from "@/components/Hero";
 import { InteractiveExperiences } from "@/components/InteractiveExperiences";
 import { Navbar } from "@/components/Navbar";
+import { Pricing } from "@/components/Pricing";
 import { Process } from "@/components/Process";
 import { Projects } from "@/components/Projects";
 import { Services } from "@/components/Services";
@@ -28,12 +29,13 @@ export default function Home() {
       <main>
         <Hero />
         <Services />
-        <About />
-        <Skills />
         <Projects />
         <WhatICanBuild />
         <CreativeShowcase />
         <InteractiveExperiences />
+        <Pricing />
+        <About />
+        <Skills />
         <Process />
         <WhyWorkWithMe />
         <FreelanceCTA />

@@ -12,7 +12,7 @@ export function Projects() {
           <SectionHeading
             eyebrow="Selected work"
             title="Featured Projects"
-            description="Live products built for education and hospitality — presented as they exist today, without invented metrics."
+            description="Live projects for education and hospitality, presented as they exist today without invented metrics."
           />
         </Reveal>
         <div className="mt-12 grid gap-8">

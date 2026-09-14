@@ -12,7 +12,7 @@ export function About() {
             About
           </p>
           <h2 className="text-3xl font-semibold tracking-tight text-balance sm:text-4xl">
-            A Developer Who Builds, Learns, and Creates.
+            Developer. Designer. Builder.
           </h2>
         </Reveal>
         <Reveal delay={0.08}>
@@ -22,21 +22,28 @@ export function About() {
               Systems student at {site.college}.
             </p>
             <p>
-              My focus is building practical digital products that combine
-              development, design, and emerging AI technologies.
-            </p>
-            <p>
-              I work across full-stack web development, UI/UX, interactive web
-              experiences, and AI-powered creative content.
+              I build practical digital products by combining full-stack
+              development, UI/UX design, interactive web technologies, and
+              AI-powered creative tools.
             </p>
             <p>
               I&apos;m currently expanding my knowledge in{" "}
               <span className="text-foreground">
                 Artificial Intelligence and Machine Learning
-              </span>
-              . My long-term goal is to combine strong software engineering
-              skills with AI to build intelligent and useful products.
+              </span>{" "}
+              while continuing to build real-world web projects and creative
+              digital experiences.
             </p>
+            <div className="grid gap-3 pt-2 text-sm sm:grid-cols-2">
+              <div className="rounded-2xl border border-white/8 bg-white/[0.03] p-4">
+                <p className="text-muted">Education</p>
+                <p className="mt-1 text-foreground">{site.status}</p>
+              </div>
+              <div className="rounded-2xl border border-white/8 bg-white/[0.03] p-4">
+                <p className="text-muted">Branch</p>
+                <p className="mt-1 text-foreground">{site.branch}</p>
+              </div>
+            </div>
             <div className="pt-2">
               <ButtonLink href="#contact" variant="secondary" external={false}>
                 Get in Touch

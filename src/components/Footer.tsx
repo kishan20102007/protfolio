@@ -14,7 +14,7 @@ export function Footer() {
             </p>
             <p className="mt-2 text-sm text-muted">{site.shortRole}</p>
             <p className="mt-4 max-w-sm text-sm text-muted">
-              Built with passion, curiosity, and modern technology.
+              Built with care, curiosity, and modern web technology.
             </p>
           </div>
           <nav aria-label="Footer">
@@ -31,7 +31,7 @@ export function Footer() {
         </div>
         <div className="flex flex-col gap-4 border-t border-white/8 pt-6 sm:flex-row sm:items-center sm:justify-between">
           <p className="text-xs text-muted">
-            © 2026 {site.legalName}. All rights reserved.
+            (c) 2026 {site.legalName}. All rights reserved.
           </p>
           <ul className="flex items-center gap-3">
             <li>

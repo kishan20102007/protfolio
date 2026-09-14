@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { Container } from "@/components/Container";
 import { Reveal } from "@/components/Reveal";
 import { SectionHeading } from "@/components/SectionHeading";
@@ -9,9 +10,9 @@ export function CreativeShowcase() {
       <Container>
         <Reveal>
           <SectionHeading
-            eyebrow="AI + Creative Design"
+            eyebrow="AI + Creative Work"
             title="Not Just Code. I Build the Visual Story Too."
-            description="Campaign visuals, posters, and interface concepts. Placeholder artwork is labeled so you can drop in real files later."
+            description="Creative concepts for AI advertisements, posters, social media creatives, product promotions, marketing visuals, and UI/UX ideas."
           />
         </Reveal>
         <div className="mt-12 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
@@ -19,14 +20,18 @@ export function CreativeShowcase() {
             <Reveal key={item.id} delay={index * 0.04}>
               <article className="overflow-hidden rounded-2xl border border-white/8 bg-surface">
                 <div className="relative aspect-[4/3] bg-surface-2">
-                  {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img
+                  <Image
                     src={item.image}
                     alt={item.alt}
-                    className="h-full w-full object-cover"
+                    fill
+                    className="object-cover"
+                    sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
                   />
                 </div>
                 <div className="p-5">
+                  <p className="mb-2 text-[11px] font-medium tracking-[0.16em] text-accent uppercase">
+                    Creative Concept
+                  </p>
                   <h3 className="font-medium">{item.title}</h3>
                   <p className="mt-2 text-sm leading-6 text-muted">
                     {item.description}

@@ -59,7 +59,7 @@ export function Navbar() {
             href="#contact"
             className="inline-flex min-h-10 items-center rounded-full bg-accent px-4 text-sm font-medium text-[#071018] transition-colors hover:bg-accent-strong"
           >
-            Let&apos;s Work Together
+            Start a Project
           </a>
         </div>
 
@@ -96,7 +96,7 @@ export function Navbar() {
             className="mt-2 inline-flex min-h-11 items-center justify-center rounded-full bg-accent px-4 text-sm font-medium text-[#071018]"
             onClick={() => setOpen(false)}
           >
-            Let&apos;s Work Together
+            Start a Project
           </a>
         </nav>
       </div>

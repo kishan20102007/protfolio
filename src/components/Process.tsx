@@ -11,7 +11,7 @@ export function Process() {
           <SectionHeading
             eyebrow="Process"
             title="How Engagements Typically Run"
-            description="A clear path from first conversation to a launched product — without extra process theater."
+            description="A clear path from first conversation to a launched product, with practical communication at every step."
           />
         </Reveal>
         <div className="mt-12 grid gap-4 md:grid-cols-2 lg:grid-cols-4">

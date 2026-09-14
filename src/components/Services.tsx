@@ -13,8 +13,8 @@ export function Services() {
         <Reveal>
           <SectionHeading
             eyebrow="Services"
-            title="What I Build"
-            description="A focused set of capabilities for brands that need a polished digital presence — from product websites to campaign visuals."
+            title="What I Can Build"
+            description="A focused set of capabilities for brands that need a polished digital presence, from product websites to campaign visuals."
           />
         </Reveal>
         <div className="mt-12 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
@@ -22,7 +22,13 @@ export function Services() {
             const Icon = icons[index];
             return (
               <Reveal key={service.id} delay={index * 0.05}>
-                <article className="group h-full rounded-2xl border border-white/8 bg-surface p-6 transition-colors hover:border-accent/30">
+                <article
+                  className={`group h-full rounded-2xl border p-6 transition-colors ${
+                    index < 2
+                      ? "border-accent/30 bg-accent/[0.06]"
+                      : "border-white/8 bg-surface hover:border-accent/30"
+                  }`}
+                >
                   <div className="mb-5 inline-flex h-10 w-10 items-center justify-center rounded-xl border border-white/8 bg-white/[0.03] text-accent">
                     <Icon size={18} strokeWidth={1.75} />
                   </div>
@@ -31,7 +37,7 @@ export function Services() {
                     {service.description}
                   </p>
                   <p className="mt-5 text-xs tracking-wide text-muted/90">
-                    {service.technologies.join(" • ")}
+                    {service.technologies.join(" / ")}
                   </p>
                 </article>
               </Reveal>

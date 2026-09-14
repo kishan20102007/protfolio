@@ -14,11 +14,11 @@ export function Contact() {
             Contact
           </p>
           <h2 className="text-3xl font-semibold tracking-tight sm:text-4xl">
-            Let&apos;s Work Together
+            Let&apos;s Build Something.
           </h2>
           <p className="mt-5 max-w-xl text-base leading-7 text-muted">
-            Have a project in mind? Tell me what you&apos;re building, and
-            let&apos;s discuss how I can help.
+            Have a website, landing page, or creative project in mind? Tell me
+            what you&apos;re building and let&apos;s discuss it.
           </p>
           <dl className="mt-8 space-y-4 text-sm">
             <div>
@@ -55,7 +55,7 @@ export function Contact() {
             </div>
             <div>
               <dt className="text-muted">GitHub</dt>
-              <dd className="mt-1">
+              <dd className="mt-1 break-all">
                 <a
                   href={site.github}
                   target="_blank"
@@ -70,7 +70,11 @@ export function Contact() {
         </Reveal>
         <Reveal delay={0.08}>
           <div className="grid gap-3 sm:grid-cols-2">
-            <ButtonLink href={`mailto:${site.email}`} className="w-full">
+            <ButtonLink
+              href={`mailto:${site.email}`}
+              external={false}
+              className="w-full"
+            >
               <Mail size={16} />
               Email Me
             </ButtonLink>
@@ -87,7 +91,7 @@ export function Contact() {
               GitHub
             </ButtonLink>
             <a
-              href={`tel:+918247532964`}
+              href="tel:+918247532964"
               className="inline-flex min-h-11 items-center justify-center gap-2 rounded-full border border-white/12 px-5 text-sm font-medium hover:border-accent/40 sm:col-span-2"
             >
               <Phone size={16} />

@@ -1,6 +1,6 @@
-# Gunnireddy JaiKishanReddy — Portfolio
+# Gunnireddy JaiKishanReddy Portfolio
 
-Premium freelance portfolio for a Full-Stack Web Developer & AI Creative Developer. Frontend-only Next.js app, ready for GitHub → Vercel.
+Premium freelance portfolio for a Full-Stack Web Developer & AI Creative Developer. Frontend-only Next.js app, ready for GitHub to Vercel deployment.
 
 ## Installation
 
@@ -24,7 +24,7 @@ npm run start
 
 Optional (SEO absolute URLs after deploy): copy `.env.example` to `.env.local` and set:
 
-```
+```bash
 NEXT_PUBLIC_SITE_URL=https://your-domain.vercel.app
 ```
 
@@ -39,6 +39,7 @@ Add the same variable in the Vercel project settings if you use it.
 | Services | `src/data/services.ts` |
 | Skills | `src/data/skills.ts` |
 | Projects | `src/data/projects.ts` |
+| Pricing | `src/data/pricing.ts` + `src/components/Pricing.tsx` |
 | AI / creative cards | `src/data/creatives.ts` + `public/creatives/` |
 | Process steps | `src/data/process.ts` |
 
@@ -48,4 +49,4 @@ Append an object in `src/data/projects.ts`. To use a real screenshot, put the fi
 
 ### Replace creative placeholders
 
-Replace the SVGs in `public/creatives/` with your ads/posters (keep the same filenames, or update the `image` paths in `src/data/creatives.ts`).
+Replace the SVGs in `public/creatives/` with your ads/posters. Keep the same filenames, or update the `image` paths in `src/data/creatives.ts`.

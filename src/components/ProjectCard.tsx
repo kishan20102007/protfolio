@@ -1,7 +1,7 @@
+import Image from "next/image";
 import { ProjectPreview } from "@/components/ProjectPreview";
 import type { Project } from "@/data/projects";
 import { ArrowUpRight } from "lucide-react";
-import Image from "next/image";
 
 export function ProjectCard({ project }: { project: Project }) {
   return (
@@ -27,7 +27,7 @@ export function ProjectCard({ project }: { project: Project }) {
             </div>
           )}
           <div className="absolute inset-0 flex items-end bg-gradient-to-t from-black/70 via-black/10 to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-            <span className="p-6 text-sm font-medium">View Project →</span>
+            <span className="p-6 text-sm font-medium">View Project</span>
           </div>
         </div>
       </a>

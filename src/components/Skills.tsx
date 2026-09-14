@@ -11,7 +11,7 @@ export function Skills() {
           <SectionHeading
             eyebrow="Capabilities"
             title="Skills & Tech Stack"
-            description="Tools I use to design, build, and ship digital products — plus the areas I'm actively expanding."
+            description="Tools I use to design, build, and ship digital products, plus the areas I'm actively expanding."
           />
         </Reveal>
         <div className="mt-12 grid gap-4 md:grid-cols-2">

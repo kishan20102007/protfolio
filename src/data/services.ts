@@ -1,9 +1,9 @@
 export const services = [
   {
     id: "websites",
-    title: "Websites & Web Applications",
+    title: "Website Development",
     description:
-      "Modern, responsive websites and full-stack web applications designed for businesses, startups, and organizations.",
+      "Modern, responsive websites built for businesses, startups, organizations, and personal brands.",
     technologies: [
       "HTML",
       "CSS",
@@ -18,35 +18,35 @@ export const services = [
     id: "landing",
     title: "Landing Pages",
     description:
-      "High-converting landing pages designed to communicate your product, service, or brand clearly.",
+      "High-quality landing pages designed to clearly communicate products, services, and business value.",
     technologies: ["React", "Next.js", "Tailwind CSS", "UI/UX"],
   },
   {
     id: "interactive",
     title: "3D & Interactive Websites",
     description:
-      "Immersive and interactive web experiences using modern web technologies and 3D interfaces.",
+      "Interactive web experiences combining modern UI, motion, and carefully designed 3D elements.",
     technologies: ["React", "Motion", "Interactive UI", "3D Web"],
   },
   {
     id: "ai-ads",
-    title: "AI-Powered Creative Ads",
+    title: "AI-Powered Ads",
     description:
-      "AI-assisted promotional visuals and advertisements designed for social media and digital marketing.",
+      "AI-assisted promotional visuals and advertisements designed for modern digital marketing.",
     technologies: ["AI Creative Tools", "Canva", "Brand Design"],
   },
   {
     id: "posters",
-    title: "Posters & Social Creatives",
+    title: "AI Posters & Social Creatives",
     description:
-      "Professional promotional posters, social-media creatives, event graphics, and marketing visuals.",
+      "Professional posters, promotional graphics, and social-media creatives for businesses and campaigns.",
     technologies: ["Canva", "AI Poster Creation", "Visual Design"],
   },
   {
     id: "uiux",
     title: "UI/UX Design",
     description:
-      "Clean and user-focused interface designs created with Figma and modern design principles.",
+      "Clean, user-focused interfaces designed with Figma and modern UX principles.",
     technologies: ["Figma", "UI/UX Design", "Prototyping"],
   },
 ] as const;

@@ -13,6 +13,9 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+const seoDescription =
+  "Portfolio of Gunnireddy JaiKishanReddy - Full-Stack Web Developer and AI Creative Developer building modern websites, landing pages, 3D web experiences, UI/UX designs, and AI-powered creative content.";
+
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
@@ -20,8 +23,7 @@ export const metadata: Metadata = {
       "Gunnireddy JaiKishanReddy | Full-Stack Web Developer & AI Creative Developer",
     template: "%s | Jai Kishanreddy",
   },
-  description:
-    "Portfolio of Gunnireddy JaiKishanReddy — Full-Stack Web Developer and AI Creative Developer building modern websites, landing pages, 3D web experiences, UI/UX designs, and AI-powered creative content.",
+  description: seoDescription,
   keywords: [
     "Full-Stack Web Developer",
     "AI Creative Developer",
@@ -40,16 +42,14 @@ export const metadata: Metadata = {
     url: siteUrl,
     title:
       "Gunnireddy JaiKishanReddy | Full-Stack Web Developer & AI Creative Developer",
-    description:
-      "Portfolio of Gunnireddy JaiKishanReddy — Full-Stack Web Developer and AI Creative Developer building modern websites, landing pages, 3D web experiences, UI/UX designs, and AI-powered creative content.",
+    description: seoDescription,
     siteName: site.legalName,
   },
   twitter: {
     card: "summary_large_image",
     title:
       "Gunnireddy JaiKishanReddy | Full-Stack Web Developer & AI Creative Developer",
-    description:
-      "Portfolio of Gunnireddy JaiKishanReddy — Full-Stack Web Developer and AI Creative Developer building modern websites, landing pages, 3D web experiences, UI/UX designs, and AI-powered creative content.",
+    description: seoDescription,
   },
   robots: {
     index: true,

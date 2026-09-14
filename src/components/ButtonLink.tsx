@@ -26,14 +26,13 @@ export function ButtonLink({
   className = "",
   external,
 }: Props) {
-  const isExternal =
-    external ?? (href.startsWith("http") || href.startsWith("mailto:") || href.startsWith("tel:"));
+  const opensNewTab = external ?? href.startsWith("http");
 
   return (
     <a
       href={href}
       className={`inline-flex min-h-11 items-center justify-center gap-2 rounded-full px-5 text-sm font-medium transition-colors duration-200 ${variants[variant]} ${className}`}
-      {...(isExternal
+      {...(opensNewTab
         ? { target: "_blank", rel: "noopener noreferrer" }
         : undefined)}
     >

@@ -2,7 +2,7 @@ import { ImageResponse } from "next/og";
 
 export const runtime = "nodejs";
 export const alt =
-  "Gunnireddy JaiKishanReddy — Full-Stack Web Developer & AI Creative Developer";
+  "Gunnireddy JaiKishanReddy - Full-Stack Web Developer & AI Creative Developer";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
@@ -33,7 +33,14 @@ export default function OpenGraphImage() {
           JKR.
         </div>
         <div style={{ display: "flex", flexDirection: "column", gap: 18 }}>
-          <div style={{ fontSize: 54, fontWeight: 700, lineHeight: 1.15, maxWidth: 920 }}>
+          <div
+            style={{
+              fontSize: 54,
+              fontWeight: 700,
+              lineHeight: 1.15,
+              maxWidth: 920,
+            }}
+          >
             Full-Stack Web Developer & AI Creative Developer
           </div>
           <div style={{ fontSize: 24, color: "#97a0ae", maxWidth: 820 }}>

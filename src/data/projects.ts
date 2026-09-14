@@ -18,7 +18,7 @@ export type Project = {
 export const projects: Project[] = [
   {
     slug: "eduenrich",
-    title: "EduEnrich — Premium Global Education Consultancy",
+    title: "EduEnrich - Premium Global Education Consultancy",
     category: "Education Platform",
     description:
       "A premium education consultancy platform designed to present educational programs, services, courses, and student-focused information through a modern web experience.",
@@ -29,7 +29,7 @@ export const projects: Project[] = [
   },
   {
     slug: "spice-garden",
-    title: "Spice Garden — Restaurant Experience",
+    title: "Spice Garden - Authentic Indian Cuisine",
     category: "Restaurant Website",
     description:
       "A modern restaurant website designed to showcase authentic Indian cuisine, menu items, restaurant information, and customer-focused experiences.",

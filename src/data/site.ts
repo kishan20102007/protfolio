@@ -4,11 +4,10 @@ export const site = {
   legalName: "Gunnireddy JaiKishanReddy",
   firstName: "Gunnireddy JaiKishanReddy",
   role: "Full-Stack Web Developer & AI Creative Developer",
-  shortRole: "Full-Stack Web Developer • AI Creative Developer",
-  tagline:
-    "I build modern websites, high-converting landing pages, interactive 3D experiences, and AI-powered visual content for businesses, startups, and personal brands.",
+  shortRole: "Full-Stack Web Developer + AI Creative Developer",
+  tagline: "I Build Digital Experiences That Make Businesses Stand Out.",
   supporting:
-    "Turning ideas into modern digital experiences through web development, 3D interfaces, UI/UX design, and AI-powered creative solutions.",
+    "I'm a Full-Stack Web Developer and AI Creative Developer building modern websites, landing pages, interactive 3D experiences, and AI-powered visual content for businesses, startups, and personal brands.",
   email: "jaikishangunnireddy@gamil.com",
   phoneDisplay: "+91 8247532964",
   whatsapp: "https://wa.me/918247532964",
@@ -19,8 +18,8 @@ export const site = {
   college: "RVR & JC College of Engineering",
   branch: "Computer Science and Business Systems",
   branchShort: "Computer Science & Business Systems",
-  availability: "Open for Freelancing",
-  status: "B.Tech 3rd Year Student",
+  availability: "OPEN FOR FREELANCING",
+  status: "B.Tech 3rd Year",
 } as const;
 
 export const siteUrl =

@@ -38,13 +38,13 @@ export function ProjectPreview({ kind }: { kind: PreviewKind }) {
         </p>
         <p className="mt-3 text-2xl font-semibold">EduEnrich</p>
         <p className="mt-2 max-w-sm text-sm text-muted">
-          Global education consultancy — programs, services, and student-focused
-          guidance.
+          Global education consultancy with programs, services, and
+          student-focused guidance.
         </p>
         <div className="mt-6 flex max-w-md gap-3">
           <div className="flex-1 rounded-xl border border-white/10 bg-white/[0.04] p-3">
             <p className="text-xs text-muted">Programs</p>
-            <p className="mt-1 text-sm">Undergraduate · Masters</p>
+            <p className="mt-1 text-sm">Undergraduate / Masters</p>
           </div>
           <div className="flex-1 rounded-xl border border-white/10 bg-white/[0.04] p-3">
             <p className="text-xs text-muted">Focus</p>
