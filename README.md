@@ -1,36 +1,51 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Gunnireddy JaiKishanReddy — Portfolio
 
-## Getting Started
+Premium freelance portfolio for a Full-Stack Web Developer & AI Creative Developer. Frontend-only Next.js app, ready for GitHub → Vercel.
 
-First, run the development server:
+## Installation
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Production
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run build
+npm run start
+```
 
-## Learn More
+## Environment variables
 
-To learn more about Next.js, take a look at the following resources:
+**No environment variables are required** for the site to work.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Optional (SEO absolute URLs after deploy): copy `.env.example` to `.env.local` and set:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```
+NEXT_PUBLIC_SITE_URL=https://your-domain.vercel.app
+```
 
-## Deploy on Vercel
+Add the same variable in the Vercel project settings if you use it.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Customization
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+| Change | File |
+| --- | --- |
+| Contact, name, links | `src/data/site.ts` |
+| Navigation | `src/data/navigation.ts` |
+| Services | `src/data/services.ts` |
+| Skills | `src/data/skills.ts` |
+| Projects | `src/data/projects.ts` |
+| AI / creative cards | `src/data/creatives.ts` + `public/creatives/` |
+| Process steps | `src/data/process.ts` |
+
+### Add a project
+
+Append an object in `src/data/projects.ts`. To use a real screenshot, put the file in `public/projects/` and set `image: "/projects/your-file.webp"`.
+
+### Replace creative placeholders
+
+Replace the SVGs in `public/creatives/` with your ads/posters (keep the same filenames, or update the `image` paths in `src/data/creatives.ts`).

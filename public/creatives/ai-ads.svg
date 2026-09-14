@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" role="img" aria-label="Placeholder visual for AI-powered advertisements">
+  <rect width="640" height="480" fill="#12161e"/>
+  <rect x="48" y="48" width="544" height="384" rx="24" fill="#1a2130"/>
+  <circle cx="470" cy="150" r="70" fill="#5cc8ff" fill-opacity="0.18"/>
+  <text x="80" y="120" fill="#5cc8ff" font-family="Arial, sans-serif" font-size="14" letter-spacing="4">PLACEHOLDER</text>
+  <text x="80" y="180" fill="#f4f6f8" font-family="Arial, sans-serif" font-size="42" font-weight="700">AI Ads</text>
+  <text x="80" y="230" fill="#97a0ae" font-family="Arial, sans-serif" font-size="20">Campaign-ready promotional frames</text>
+  <rect x="80" y="280" width="160" height="10" rx="5" fill="#5cc8ff"/>
+  <rect x="80" y="310" width="240" height="8" rx="4" fill="#2a3344"/>
+</svg>

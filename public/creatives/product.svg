@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" role="img" aria-label="Placeholder visual for product promotions">
+  <rect width="640" height="480" fill="#0f1412"/>
+  <rect x="70" y="90" width="500" height="300" rx="24" fill="#17201c"/>
+  <rect x="110" y="140" width="180" height="200" rx="16" fill="#5cc8ff" fill-opacity="0.12"/>
+  <text x="330" y="200" fill="#f4f6f8" font-family="Arial, sans-serif" font-size="32" font-weight="700">Product Promo</text>
+  <text x="330" y="244" fill="#97a0ae" font-family="Arial, sans-serif" font-size="18">Launch visual template</text>
+  <text x="330" y="290" fill="#5cc8ff" font-family="Arial, sans-serif" font-size="12" letter-spacing="3">PLACEHOLDER</text>
+</svg>
